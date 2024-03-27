@@ -7,6 +7,10 @@ body {
     margin: 0;
     font-family: 'Inter';
 }
+html, body {
+    position:relative;
+    overflow-x:hidden;
+}
 
 /* em --> margin - padding */
 /* 1em = حجم خط العنصر نفسه (قيمة الخاصية font-size ) مهما تغيرت هذة القيمة. */
