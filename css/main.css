@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 .hide-mobile {
     display: none;
 }
@@ -233,3 +237,41 @@ a.primary-cta {
         }
     }
 }
+@media (max-width: 600px) {
+    main {
+        margin: 0 auto;
+
+        h1 {
+            font-weight: 400;
+            font-size: 1.8em;
+        }
+        img {
+            max-width: 250px;
+        }
+    }
+    p {
+        font-size: .9rem;
+        
+        line-height: 1.4;
+    }
+}
+
+@media (max-width: 320px) {
+    main {
+        margin: 0 auto;
+
+        h1 {
+            font-weight: 400;
+            font-size: 1.6rem;
+        }
+        img {
+            max-width: 200px;
+        }
+    }
+    p {
+        font-size: .8rem;
+        
+        line-height: 1.4;
+    }
+}
+
