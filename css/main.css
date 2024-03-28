@@ -250,9 +250,21 @@ a.primary-cta {
         }
     }
     p {
-        font-size: .9rem;
+        font-size: 1rem;
         
+
         line-height: 1.4;
+    }
+
+    nav ul li a {
+        font-size: 1.1rem;
+      
+    }
+    nav ul li {
+        margin: 1.5em 0;
+    }
+    nav ul {
+        padding: 1em;
     }
 }
 
@@ -269,9 +281,18 @@ a.primary-cta {
         }
     }
     p {
-        font-size: .8rem;
-        
+        font-size: 1rem;
+        min-height: 200px;
         line-height: 1.4;
+    }
+    nav ul li a {
+        font-size: 1rem;
+    }
+    nav ul li {
+        margin: 2em 0;
+    }
+    nav ul {
+        padding: .5em;
     }
 }
 
